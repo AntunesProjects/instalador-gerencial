@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Merito
+Comment=
+Exec=java -jar /opt/jposto/bin/JPosto.jar
+Icon=/opt/jposto/bin/com/img/logo/logo2.gif
+Path=/opt/jposto/bin
+Terminal=false
+StartupNotify=false

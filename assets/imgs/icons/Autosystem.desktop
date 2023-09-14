@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Autosystem
+Comment=
+Exec=as_main
+Icon=/usr/local/autosystem3/share/images/autosystem.gif
+Path=/usr/local/autosystem3/bin
+Terminal=false
+StartupNotify=false

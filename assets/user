@@ -1,0 +1,16 @@
+#!/bin/bash
+
+/usr/bin/firefox about:preferences#home http://192.168.0.29/apoiobuffon/ https://accounts.google.com https://addons.mozilla.org/pt-BR/firefox/addon/firefox-br/
+
+/usr/bin/teamviewer
+
+/usr/bin/anydesk
+
+/usr/bin/libreoffice
+
+/usr/bin/xfdesktop-settings
+
+sudo rm -rf /etc/autosystem.key
+as_config
+
+
