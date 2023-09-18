@@ -8,10 +8,10 @@ ultima_att="14/09/23"
 asinstall="http://192.168.0.29/autosystem/as_install.sh"
 
 #dir
-dirConfig=/var/tmp/gerencial/assets/config\ files/ 
-dirImgs=/var/tmp/gerencial/assets/imgs/
-dirIcons=/var/tmp/gerencial/assets/imgs/icons/
-dirAssets=/var/tmp/gerencial/assets/
+dirConfig=/var/tmp/instalador-gerencial-main/assets/config\ files/ 
+dirImgs=/var/tmp/instalador-gerencial-main/assets/imgs/
+dirIcons=/var/tmp/instalador-gerencial-main/assets/imgs/icons/
+dirAssets=/var/tmp/instalador-gerencial-main/assets/
 
 
 #FUNÇÕES APPS:
@@ -54,7 +54,7 @@ sleep 1
 echo "Digite o nome da máquina (gerente, gerenteloja, auxiliar, etc...)"
 read maquina
 sleep 1
-clear
+#clear
 
 ##atualizado o pc
 echo "update"
@@ -88,7 +88,7 @@ sleep 1
 ###Instalando autosystem###
 echo "Instalando autosystem"
 sleep 1
-    instAutosystem
+    #instAutosystem
 echo "Autosystem ok"
 sleep 1
 clear
@@ -112,7 +112,7 @@ cd $dirImgs
 sudo cp backgroundBuffon /usr/share/xfce4/backdrops/
 
 cd $dirIcons
-sudo cp * /home/$maquina/Área\ de\ Trabalho/
+sudo cp *.desktop /home/$maquina/Área\ de\ Trabalho/
 
 cd $dirAssets
 sudo cp user /usr/bin/
